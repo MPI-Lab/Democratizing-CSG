@@ -43,7 +43,7 @@ Overview of our data collection pipeline. It incorporates four stages includ-
 ing raw video crawling, skeleton annotation, quality con-
 trol, and post-processing.
 
-📆 TODO
+## TODO
 - [ ] Release code (coming soon)
 
 <!-- ## Visualization
@@ -58,7 +58,7 @@ trol, and post-processing.
 
 
 
-## 🎫 Citation
+## Citation
 If you find this project useful in your research, please consider the citation:
 
 ```BibTeX
