@@ -25,7 +25,7 @@
 <img width="800" alt="image" src="assets/Model_3.8_AI.jpg?raw=true">
 </div>
 
-Overview of our co-speech gesture video generation framework. We concatenate the 2D skeleton of the reference image **$R$** with the noisy skeleton sequence ***$x_T$*** along the frame dimension, providing the body shape cue of the speaker. We then concatenate the embeddings of skeletons and those of audio segments along the feature dimension as the input of the diffusion model, enforcing strict temporal synchronization. Finally, we employ one off-the-shelf human video generation model to produce the co-speech gesture video **$V$** with the synthesized skeleton sequence as an auxiliary condition.
+Overview of our co-speech gesture video generation framework. We concatenate the 2D skeleton of the reference image **$R$** with the noisy skeleton sequence **$x_T$** along the frame dimension, providing the body shape cue of the speaker. We then concatenate the embeddings of skeletons and those of audio segments along the feature dimension as the input of the diffusion model, enforcing strict temporal synchronization. Finally, we employ one off-the-shelf human video generation model to produce the co-speech gesture video **$V$** with the synthesized skeleton sequence as an auxiliary condition.
 
 ## Dataset
 <div align="center">
