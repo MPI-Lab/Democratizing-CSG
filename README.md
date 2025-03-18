@@ -3,7 +3,7 @@
 <h1> Democratizing High-Fidelity Co-Speech Gesture Video Generation </h1>
 
 ####  <p align="center"> Xu Yang*, Shaoli Huang*, Shenbo Xie*, Xuelin Chen,</p>
-####  <p align="center"> Yifei Liu, Changxing Ding$^\dagger$</p>
+####  <p align="center"> Yifei Liu, Changxing Ding†</p>
 
 <a href='https://zhang-haojie.github.io/project-pages/letstalk.html'><img src='https://img.shields.io/badge/Project-Page-green'></a> 
 <a href='https://arxiv.org/abs/2411.16748'><img src='https://img.shields.io/badge/Technique-Report-red'></a> 
