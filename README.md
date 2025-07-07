@@ -40,7 +40,7 @@ Overview of our co-speech gesture video generation framework. We concatenate the
 </div>
 
 More details of CSG-405. (a) The proportion of clips for each speech type. (b) Attribute distribution in gender, ethnicity, age, and emotion.
-
+<div align="center">
 <img width="800" alt="image" src="assets/Figure_3_17_data_filter_AI.jpg?raw=true">
 </div>
 Overview of our data collection pipeline. It incorporates four stages including raw video crawling, skeleton annotation, quality control, and post-processing.
