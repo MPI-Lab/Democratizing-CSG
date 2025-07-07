@@ -2,10 +2,12 @@
 
 <h1> Democratizing High-Fidelity Co-Speech Gesture Video Generation </h1>
 
-###  <p align="center"> Xu Yang*, Shaoli Huang*, Shenbo Xie*, Xuelin Chen,</p>
-###  <p align="center"> Yifei Liu, Changxing Ding†</p>
-<p align="center"> *Equal Contribution.</p>
-<p align="center"> †Corresponding Author.</p>
+###  <p align="center">Xu Yang<sup>1*‡</sup>, Shaoli Huang<sup>2*</sup>, Shenbo Xie<sup>1*</sup>, Xuelin Chen<sup>2</sup>,</p>
+###  <p align="center">Yifei Liu<sup>1</sup>, Changxing Ding<sup>1†</sup></p>
+<p align="center">1 South China University of Technology&nbsp;&nbsp;&nbsp;2 Tencent AI Lab</p>
+<p align="center">*Equal Contribution.&nbsp;&nbsp;&nbsp;†Corresponding Author.&nbsp;&nbsp;&nbsp;‡Part of Xu Yang's work was done during an internship at Tencent AI Lab.</p>
+
+
 
 <a href='https://thetearofmoon.github.io/co-speech2d/'><img src='https://img.shields.io/badge/Project-Page-green'></a> 
 <a href=''><img src='https://img.shields.io/badge/Technique-Report-red'></a> 
