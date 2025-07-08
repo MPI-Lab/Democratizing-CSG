@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Democratizing High-Fidelity Co-Speech Gesture Video Generation</title>
+  <link rel="icon" type="image/x-icon" href="static/images/icon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Democratizing High-Fidelity Co-Speech Gesture Video Generation</h1>
+          <div class="is-size-5 publication-authors">
+            <!-- Paper authors -->
+            <!-- <span class="author-block"><a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Xu Yang</a><sup>1*</sup>,</span>
+            <span class="author-block"><a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Shaoli Huang</a><sup>2*</sup>,</span>
+            <span class="author-block"><a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Shenbo Xie</a><sup>1*</sup>,</span>
+            <span class="author-block"><a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Xuelin Chen</a><sup>3</sup>,</span>
+            <span class="author-block"><a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Yifei Liu</a><sup>1</sup>,</span>
+            <span class="author-block"><a href="Corresponding AUTHOR PERSONAL LINK" target="_blank">Changxing Ding</a><sup>1&#x271D;</sup></span> -->
+            <span class="author-block">Xu Yang<sup>1*</sup>,</span>
+            <span class="author-block">Shenbo Xie<sup>1*</sup>,</span>
+            <span class="author-block">Shaoli Huang<sup>2&#x271D</sup>,</span>
+            <span class="author-block">Xuelin Chen<sup>2</sup>,</span>
+            <span class="author-block">Yifei Liu<sup>1</sup>,</span>
+            <span class="author-block">Changxing Ding<sup>1&#x271D;</sup></span>
+            <!-- <span class="author-block"><a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a></span> -->
+          </div>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>South China University of Technology&nbsp;&nbsp;&nbsp;</span>
+            <span class="author-block"><sup>2</sup>Tencent AI Lab&nbsp;&nbsp;&nbsp;</span>
+            <!-- <span class="author-block"><sup>3</sup>Adobe Research&nbsp;&nbsp;&nbsp;<br></span> -->
+            <!-- <span class="author-block">ICCV 2025</span> -->
+            <!-- <span class="author-block">ICCV 2025<br>Anonymous ICCV submission</span> -->
+            <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution&nbsp;&nbsp;&nbsp;</small></span>
+            <span class="eql-cntrb"><small><sup>&#x271D;</sup>Indicates Corresponding Authors</small></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<div class="column has-text-centered">
+  <div class="publication-links">
+    <span class="link-block">
+      <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+      class="external-link button is-normal is-rounded is-dark">
+      <span class="icon">
+        <i class="fas fa-file-pdf"></i>
+      </span>
+      <span>Paper</span>
+      </a>
+    </span>
+
+    <!-- <span class="link-block">
+      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+      class="external-link button is-normal is-rounded is-dark">
+      <span class="icon">
+        <i class="fas fa-file-pdf"></i>
+      </span>
+      <span>Dataset</span>
+      </a>
+    </span> -->
+
+    <span class="link-block">
+      <a href="https://github.com/MPI-Lab/Democratizing-High-Fidelity-Co-Speech-Gesture-Video-Generation" target="_blank"
+      class="external-link button is-normal is-rounded is-dark">
+      <span class="icon">
+        <i class="fab fa-github"></i>
+      </span>
+      <span>Code</span>
+      </a>
+    </span>
+
+    <!-- <span class="link-block">
+    <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+    class="external-link button is-normal is-rounded is-dark">
+    <span class="icon">
+      <i class="ai ai-arxiv"></i>
+    </span>
+    <span>arXiv</span>
+    </a>
+    </span> -->
+  </div>
+</div>
+
+
+<!-- Comparisons with SOTA methods -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3" style="text-align: center;">Showcases</h2>
+      <div class="item item-video1">
+        <table  width="1000" align="center">
+          <tbody>
+            <tr>
+              <th>
+                <video  width="1000" src="static/videos/demo_first/demo_first_1.mp4" controls></video>
+              </th>
+              <th>
+                <video  width="1000" src="static/videos/demo_first/demo_first_2.mp4" controls></video>
+              </th>
+            </tr>
+            <tr>
+              <th>
+                <video  width="1000" src="static/videos/demo_first/demo_first_3.mp4" controls></video>
+              </th>
+              <th>
+                <video  width="1000" src="static/videos/demo_first/demo_first_4.mp4" controls></video>
+              </th>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <h2 class="subtitle has-text-centered" style="font-size: 18px;;">
+        Click the video to full screen.
+      </h2>
+    </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3" style="text-align: center;">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Co-speech gesture video generation aims to synthesize realistic, audio-aligned videos of speakers, complete with synchronized facial expressions and body gestures. 
+            This task presents challenges due to the significant one-to-many mapping between audio and visual content, further complicated by the scarcity of large-scale public datasets and high computational demands. 
+            We propose a lightweight framework that utilizes 2D full-body skeletons as an efficient auxiliary condition to bridge audio signals with visual outputs. 
+            Our approach introduces a diffusion model conditioned on fine-grained audio segments and a skeleton extracted from the speaker's reference image, predicting skeletal motions through skeleton-audio feature fusion to ensure strict audio coordination and body shape consistency. 
+            The generated skeletons are then fed into an off-the-shelf human video generation model with the speaker's reference image to synthesize high-fidelity videos. 
+            To democratize research, we present CSG-405—the first public dataset with 405 hours of high-resolution videos across 71 speech types, annotated with 2D skeletons and diverse speaker demographics. 
+            Experiments show that our method exceeds state-of-the-art approaches in visual quality and synchronization while generalizing across speakers and contexts. 
+            Code, models, and CSG-405 will be publicly released.
+            <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit. -->
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<!-- Image carousel 
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+         Your image here 
+        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          First image description.
+        </h2>
+      </div>
+      <div class="item">
+         Your image here 
+        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          Second image description.
+        </h2>
+      </div>
+      <div class="item">
+         Your image here 
+        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+         Third image description.
+       </h2>
+     </div>
+     <div class="item">
+       Your image here 
+      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
+      <h2 class="subtitle has-text-centered">
+        Fourth image description.
+      </h2>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+End image carousel -->
+
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+       <h2 class="title is-3" style="text-align: center;">Method</h2>
+       <div class="columns is-centered">
+        <img src="static/images/Model_3.8_AI_page-0001.jpg" alt="model.jpg" style="max-width: 900px"/>
+      </div>
+
+      <div class="content has-text-justified" style="max-width: 900px; "></div>
+        <p>
+          Overview of our co-speech gesture video generation framework. We concatenate the 2D skeleton of the reference image R
+          with the noisy skeleton sequence xT along the frame dimension, providing the body shape cue of the speaker. We then concatenate the
+          embeddings of skeletons and those of audio segments along the feature dimension as the input of the diffusion model, enforcing strict
+          temporal synchronization. Finally, we employ one off-the-shelf human video generation model to produce the co-speech gesture video V
+          with the synthesized skeleton sequence as an auxiliary condition.
+          <!-- StableAnimator is based on the commonly used SVD following previous works. A reference image is processed through the diffusion model via three pathways: (1) Transformed into a latent code by a frozen VAE Encoder. The latent code is duplicated to match video frames, then concatenated with main latents. (2) Encoded by the CLIP Image Encoder to obtain image embeddings, which are fed to each cross-attention block of a denoising U-Net and our Face Encoder, respectively, to modulate the synthesized appearance. (3) Input to Arcface to gain face embeddings, which are subsequently refined for further alignment via our Face Encoder. Refined face embeddings are then fed to the denoising U-Net. A PoseNet with a similar architecture as AnimateAnyone extracts the features of the pose sequence, which are then added to the noisy latents. We replace the original input video frames with random noise during inference, while the other inputs stay the same. We propose a novel HJB-equation-based face optimization to enhance ID consistency and eliminate reliance on third-party post-processing tools. It integrates the solution process of the HJB equation into the denoising, allowing optimal gradient direction toward high ID consistency. -->
+        </p>
+      </div>
+   </div>
+    <!-- <h2 class="subtitle has-text-centered">
+        If you have any suggestions or find our work helpful, feel free to contact me.
+        <a href="mailto:francisshuyuan@gmail.com">Email: francisshuyuan@gmail.com</a>
+    </h2> -->
+</div>
+</div>
+</section>
+ 
+
+
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+       <h2 class="title is-3" style="text-align: center;">CSG-405 Database Introduction</h2>
+      <div class="content has-text-justified">
+        <div class="columns is-centered">
+          <img src="static/images/statistics_dataset.png" alt="statistics_dataset.png" style="max-width: 900px"/>
+        </div>
+       
+        <p>
+          Table 1. Comparison in statistics between our CSG-405 database and existing public ones for co-speech gesture video generation.
+          <!-- StableAnimator is based on the commonly used SVD following previous works. A reference image is processed through the diffusion model via three pathways: (1) Transformed into a latent code by a frozen VAE Encoder. The latent code is duplicated to match video frames, then concatenated with main latents. (2) Encoded by the CLIP Image Encoder to obtain image embeddings, which are fed to each cross-attention block of a denoising U-Net and our Face Encoder, respectively, to modulate the synthesized appearance. (3) Input to Arcface to gain face embeddings, which are subsequently refined for further alignment via our Face Encoder. Refined face embeddings are then fed to the denoising U-Net. A PoseNet with a similar architecture as AnimateAnyone extracts the features of the pose sequence, which are then added to the noisy latents. We replace the original input video frames with random noise during inference, while the other inputs stay the same. We propose a novel HJB-equation-based face optimization to enhance ID consistency and eliminate reliance on third-party post-processing tools. It integrates the solution process of the HJB equation into the denoising, allowing optimal gradient direction toward high ID consistency. -->
+        </p>
+        <div class="columns is-centered">
+            <img src="static/images/Figure_3_17_ages_emotions_gender_races_fixed.png" alt="codata_dataset.png" style="max-width: 900px"/>
+            <!-- <img src="static/images/Figure_3_6_ages_emotions_gender_races.jpg" alt="codata_dataset.png" style="max-width: 900px"/> -->
+        </div>
+       
+        <p>
+          Figure 2. More details of CSG-405. (a) The proportion of clips for each speech type. (b) Attribute distribution in gender, ethnicity, age, and emotion.
+          <!-- StableAnimator is based on the commonly used SVD following previous works. A reference image is processed through the diffusion model via three pathways: (1) Transformed into a latent code by a frozen VAE Encoder. The latent code is duplicated to match video frames, then concatenated with main latents. (2) Encoded by the CLIP Image Encoder to obtain image embeddings, which are fed to each cross-attention block of a denoising U-Net and our Face Encoder, respectively, to modulate the synthesized appearance. (3) Input to Arcface to gain face embeddings, which are subsequently refined for further alignment via our Face Encoder. Refined face embeddings are then fed to the denoising U-Net. A PoseNet with a similar architecture as AnimateAnyone extracts the features of the pose sequence, which are then added to the noisy latents. We replace the original input video frames with random noise during inference, while the other inputs stay the same. We propose a novel HJB-equation-based face optimization to enhance ID consistency and eliminate reliance on third-party post-processing tools. It integrates the solution process of the HJB equation into the denoising, allowing optimal gradient direction toward high ID consistency. -->
+        </p>
+      </div>
+   </div>
+    <!-- <h2 class="subtitle has-text-centered">
+        If you have any suggestions or find our work helpful, feel free to contact me.
+        <a href="mailto:francisshuyuan@gmail.com">Email: francisshuyuan@gmail.com</a>
+    </h2> -->
+</div>
+</div>
+</section>
+ 
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+       <h2 class="title is-3" style="text-align: center;">CSG-405 Data Construction Pipeline</h2>
+      <div class="content has-text-justified">
+        <div class="columns is-centered">
+            <img src="static/images/Figure_3_17_data_filter_AI.png" alt="Figure_3_17_data_filter_AI.png" style="max-width: 1000px"/>
+        </div>
+        <p>
+          We collected a substantial amount of high-resolution video data from the Internet and conducted meticulous filtering throughout the process, ultimately obterning the CSG-405 dataset, which contains 405 hours of high-resolution videos across 71 speech types.
+        </p>
+        
+      </div>
+   </div>
+    <!-- <h2 class="subtitle has-text-centered">
+        If you have any suggestions or find our work helpful, feel free to contact me.
+        <a href="mailto:francisshuyuan@gmail.com">Email: francisshuyuan@gmail.com</a>
+    </h2> -->
+</div>
+</div>
+</section>
+ 
+<!-- Youtube video 
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+       Paper video. 
+      <h2 class="title is-3">Video Presentation</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          
+          <div class="publication-video">
+             Youtube embed code here 
+            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ End youtube video -->
+
+
+<!-- Comparisons with SOTA methods -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3" style="text-align: center;">Comparisons on CSG-405</h2>
+      <div class="item item-video1">
+        <table  width="1000" align="center">
+          <tbody>
+            <tr>
+              <th>
+                <video  width="1000" src="static/videos/csg_compare/csg_compare_1.mp4" controls></video>
+              </th>
+            </tr>
+            <tr>
+              <th>
+                <video  width="1000" src="static/videos/csg_compare/csg_compare_2.mp4" controls></video>
+              </th>
+            </tr>
+            <tr>
+              <th>
+                <video  width="1000" src="static/videos/csg_compare/csg_compare_3.mp4" controls></video>
+              </th>
+            </tr>
+            <tr>
+              <th>
+                <video  width="1000" src="static/videos/csg_compare/csg_compare_4.mp4" controls></video>
+              </th>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <h2 class="subtitle has-text-centered" style="font-size: 18px;;">
+        Click the video to full screen.
+      </h2>
+    </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Comparisons with SOTA methods -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3" style="text-align: center;">Comparisons on AI-Generated Images</h2>
+      <div class="item item-video1">
+        <table  width="1000" align="center">
+          <tbody>
+            <tr>
+              <th>
+                <video  width="1000" src="static/videos/ai_generated_picture/ai_generated_picture_1.mp4" controls></video>
+              </th>
+            </tr>
+            <tr>
+              <th>
+                <video  width="1000" src="static/videos/ai_generated_picture/ai_generated_picture_2.mp4" controls></video>
+              </th>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <h2 class="subtitle has-text-centered" style="font-size: 18px;;">
+        Click the video to full screen.
+      </h2>
+    </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- End Comparisons with SOTA methods -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3" style="text-align: center;">Comparisons on PATS</h2>
+      <div class="item item-video1">
+        <table  width="800" align="center">
+          <tbody>
+            <tr>
+              <th>
+                <video  width="800" src="static/videos/pats_compare/pats_compare_1.mp4" controls></video>
+              </th>
+            </tr>
+            <tr>
+              <th>
+                <video  width="800" src="static/videos/pats_compare/pats_compare_2.mp4" controls></video>
+              </th>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <h2 class="subtitle has-text-centered" style="font-size: 18px;;">
+        Click the video to full screen.
+      </h2>
+    </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- End Comparisons with SOTA methods -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3" style="text-align: center;">Comparisons on TED-talks</h2>
+      <div class="item item-video1">
+        <table  width="800" align="center">
+          <tbody>
+            <tr>
+              <th>
+                <video  width="800" src="static/videos/ted-talk_compare/ted-talk_compare_1.mp4" controls></video>
+              </th>
+            </tr>
+            <tr>
+              <th>
+                <video  width="800" src="static/videos/ted-talk_compare/ted-talk_compare_2.mp4" controls></video>
+              </th>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <h2 class="subtitle has-text-centered" style="font-size: 18px;;">
+        Click the video to full screen.
+      </h2>
+    </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- End Comparisons with SOTA methods -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3" style="text-align: center;">Comparisons on CyberHost</h2>
+      <div class="item item-video1">
+        <table  width="800" align="center">
+          <tbody>
+            <tr>
+              <th>
+                <video  width="800" src="static/videos/cyberhost_vlogger_compare/cyberhost_compare.mp4" controls></video>
+              </th>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <h2 class="subtitle has-text-centered" style="font-size: 18px;;">
+        Click the video to full screen.
+      </h2>
+    </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- End Comparisons with SOTA methods -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3" style="text-align: center;">Comparisons on VLOGGER</h2>
+      <div class="item item-video1">
+        <table  width="800" align="center">
+          <tbody>
+            <tr>
+              <th>
+                <video  width="800" src="static/videos/cyberhost_vlogger_compare/vlogger_compare.mp4" controls></video>
+              </th>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <h2 class="subtitle has-text-centered" style="font-size: 18px;;">
+        Click the video to full screen.
+      </h2>
+    </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- End Comparisons with SOTA methods -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3" style="text-align: center;">Ablation study</h2>
+      <div class="item item-video1">
+        <table  width="1000" align="center">
+          <tbody>
+            <tr>
+              <th>
+                <video  width="1000" src="static/videos/ablation/cfg_ablation.mp4" controls></video>
+              </th>
+            </tr>
+            <tr>
+              <th>
+                <video  width="1000" src="static/videos/ablation/key_component_ablation.mp4" controls></video>
+              </th>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <h2 class="subtitle has-text-centered" style="font-size: 18px;;">
+        Click the video to full screen.
+      </h2>
+    </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Paper poster 
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Poster</h2>
+
+      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
+          </iframe>
+        
+      </div>
+    </div>
+  </section>
+End paper poster -->
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>BibTex Code Here</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
