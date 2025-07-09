@@ -9,7 +9,7 @@
 
 
 
-<a href='https://thetearofmoon.github.io/co-speech2d/'><img src='https://img.shields.io/badge/Project-Page-green'></a> 
+<a href='https://mpi-lab.github.io/Democratizing-CSG/'><img src='https://img.shields.io/badge/Project-Page-green'></a> 
 <a href=''><img src='https://img.shields.io/badge/Technique-Report-red'></a> 
 
 </div>
