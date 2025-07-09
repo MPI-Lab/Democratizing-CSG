@@ -5,7 +5,7 @@
 ###  <p align="center">Xu Yang<sup>1*‡</sup>, Shaoli Huang<sup>2*</sup>, Shenbo Xie<sup>1*</sup>, Xuelin Chen<sup>2</sup>,</p>
 ###  <p align="center">Yifei Liu<sup>1</sup>, Changxing Ding<sup>1†</sup></p>
 <p align="center">1 South China University of Technology&nbsp;&nbsp;&nbsp;2 Tencent AI Lab</p>
-<p align="center">*Equal Contribution.&nbsp;&nbsp;&nbsp;†Corresponding Author.&nbsp;&nbsp;&nbsp;‡Part of Xu Yang's work was done during an internship at Tencent AI Lab.</p>
+<p align="center">*Equal Contribution.&nbsp;&nbsp;&nbsp;†Corresponding Author.&nbsp;&nbsp;&nbsp;‡Part of his work was done during an internship at Tencent AI Lab.</p>
 
 
 
