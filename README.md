@@ -70,5 +70,4 @@ If you find this project useful in your research, please consider the citation:
   booktitle={Proceedings of the 2025 International Conference on Computer Vision(ICCV)},
   year={2025}
 }
-}
 ```
