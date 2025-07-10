@@ -64,5 +64,13 @@ Overview of our data collection pipeline. It incorporates four stages including 
 If you find this project useful in your research, please consider the citation:
 
 ```BibTeX
-BibTex
+@misc{yang2025democratizinghighfidelitycospeechgesture,
+      title={Democratizing High-Fidelity Co-Speech Gesture Video Generation}, 
+      author={Xu Yang and Shaoli Huang and Shenbo Xie and Xuelin Chen and Yifei Liu and Changxing Ding},
+      year={2025},
+      eprint={2507.06812},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2507.06812}, 
+}
 ```
