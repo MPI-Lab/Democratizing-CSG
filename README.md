@@ -13,7 +13,7 @@
   <img src='https://img.shields.io/badge/Project-Page-green' width="100">
 </a> 
 <a href='https://arxiv.org/pdf/2507.06812'>
-  <img src='https://img.shields.io/badge/Technique-Report-red' width="100">
+  <img src='https://img.shields.io/badge/Technique-Report-red' width="130">
 </a>
 </div>
 
