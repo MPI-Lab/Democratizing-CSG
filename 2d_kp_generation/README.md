@@ -11,7 +11,7 @@ conda activate audio2kp
 
 #### Weights
 
-Download the pretrained [checkpoint](https://drive.google.com/drive/folders/1sFpj6_is0F8Eq2QLARABjL183dxqGhYc?usp=sharing) and save it in the checkpoints folder like:
+Download the pretrained [checkpoint](https://drive.google.com/drive/folders/1sFpj6_is0F8Eq2QLARABjL183dxqGhYc?usp=drive_link) and save it in the checkpoints folder like:
 
 ```
 pretrained_weights
@@ -29,7 +29,7 @@ Download the sample dataset for [here](https://drive.google.com/drive/folders/1n
 
 #### Sample Dataset
 
-Refer to  [commands/test_sample.sh]()
+Refer to  [commands/test_sample.sh](https://github.com/MPI-Lab/Democratizing-CSG/blob/main/2d_kp_generation/commands/test_sample.sh)
 
 
 
@@ -37,7 +37,7 @@ Refer to  [commands/test_sample.sh]()
 
 #### Sample Dataset
 
-Refer to  [commands/train_sample.sh]()
+Refer to  [commands/train_sample.sh](https://github.com/MPI-Lab/Democratizing-CSG/blob/main/2d_kp_generation/commands/train_sample.sh)
 
 
 
