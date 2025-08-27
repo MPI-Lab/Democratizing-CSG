@@ -49,7 +49,9 @@ More details of CSG-405. (a) The proportion of clips for each speech type. (b) A
 Overview of our data collection pipeline. It incorporates four stages including raw video crawling, skeleton annotation, quality control, and post-processing.
 
 ## TODO
-- [ ] Release code (coming soon)
+- [✅] Release the keypoints generation code
+- [  ] Release the video generation code (coming soon)
+- [  ] Release the CSG-405 dataset and related processing code (coming soon)
 
 <!-- ## Visualization
 
