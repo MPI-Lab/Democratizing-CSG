@@ -51,7 +51,7 @@ Overview of our data collection pipeline. It incorporates four stages including 
 ## TODO
 - [✅] Release the keypoints generation code
 - [  ] Release the video generation code (coming soon)
-- [  ] Release the CSG-405 dataset and related processing code (coming soon)
+- [✅] Release the CSG-405 dataset and related processing code
 
 <!-- ## Visualization
 
