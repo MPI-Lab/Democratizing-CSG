@@ -1,0 +1,11 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+inference
+outputs
+output*
+infer_raw_files
+animation_data
+validation
+dataset
+checkpoints
+models

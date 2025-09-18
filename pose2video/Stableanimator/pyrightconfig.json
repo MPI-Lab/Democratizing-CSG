@@ -1,0 +1,5 @@
+{
+    "exclude": [
+        "dataset", "validation", "animation_data", "checkpoints", "outputs"
+    ]
+}
